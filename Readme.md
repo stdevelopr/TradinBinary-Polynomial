@@ -28,4 +28,4 @@ Window size: 14\
 Degree: 4
 
 ## Conclusion
-Despite the idea that a polynomial regression would predict the price based on the trend, it was possible to realize that, even there is a trend in prices, the overnight variation does not necessarily follow the general trend, wich is observed over a longer period. So for this same dataset a simple linear regression proved more efficient.
+Despite the idea that a polynomial regression would predict the price based on the trend, it was possible to realize that, even if there is a trend in prices, the overnight variation does not necessarily follow the general trend, wich is observed over a longer period. So for this same dataset a simple linear regression proved more efficient.
