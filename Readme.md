@@ -15,10 +15,10 @@ If the predicted price is lower, the guess is that the price will go down.
 
 If the predicted price is higher, the guess is that the price will go up.
 
-The following parameters will be under control:
+_The following parameters will be under control:
 
-The size of the window in wich the regression line will be calculated.
-The degree of the polynomial regression
+- The size of the window in wich the regression line will be calculated.
+- The degree of the polynomial regression
 
 ## Results
 Running the algorithm with a window size varying from 5 to 50 and degree varying from 2 to 7, the best result was:
