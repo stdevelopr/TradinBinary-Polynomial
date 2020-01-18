@@ -27,5 +27,10 @@ Win ratio: 52.09%\
 Window size: 14\
 Degree: 4
 
+___
+## Prediction Plot
+Here we see all the closing prices as the small blue dots. The red ones are the predictions without profit, and the green stars as the profit ones.
+![alt tag](/img_plot/polynomial_predictions.png)
+
 ## Conclusion
-Despite the idea that a polynomial regression would predict the price based on the trend, it was possible to realize that, even if there is a trend in prices, the overnight variation does not necessarily follow the general trend, wich is observed over a longer period. So for this same dataset a simple linear regression proved more efficient.
+Despite the idea that a polynomial regression would predict the price based on the trend, it was possible to realize that, even with lots entry points, and lots of profits, the overnight variation does not necessarily follow the general trend, wich is observed over a longer period. So for this same dataset a simple linear regression proved more efficient, but with much more less entry points although.
