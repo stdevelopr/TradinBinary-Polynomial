@@ -95,6 +95,17 @@ print('det_coef:', best_fit[1])
 
 
 
+###########To plot the predictions
+#best_predicted = best_fit(best_fit[0], best_fit[1])
+#plt.scatter(df.index, df.Close, s=0.5, label="Close")
+#plt.scatter(df.index[df.Predicted > 0], df.Predicted[df.Predicted > 0], s=1, color='red', marker= "v", label="Predicted")
+#plt.scatter(df.index[(df.Profit==True) & (df.Predicted > 0)], df.Predicted[(df.Profit==True) & (df.Predicted > 0)], s=3, 
+#                     marker= "*", color='green', label="Profit")
+#plt.legend()
+#plt.xlabel("Date")
+#plt.ylabel("Closing Price")
+#plt.show()
+
 
 #Test plot to see the behaviour of the curves
 ################
