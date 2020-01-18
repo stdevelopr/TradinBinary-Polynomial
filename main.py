@@ -90,7 +90,7 @@ best_fit = keywithmaxval(fit_params)
 
 print('The best won ratio was: ' + str(round(fit_params[best_fit]*100, 2)) +'%')
 print('Window:', best_fit[0])
-print('det_coef:', best_fit[1])
+print('degree:', best_fit[1])
 
 
 
